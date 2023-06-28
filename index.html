@@ -19,29 +19,57 @@
       </header>
       <main>
         <section>
-          <h4>Изменить данные</h4>
+          <h4 style="font-size: 1.5em">Изменить данные</h4>
           <form data-edit-form>
             <div>
               <label for="fist-name">Имя:</label>
-              <input type="text" name="fist-name" id="fist-name" />
+              <input
+                style="border: 1px solid white"
+                type="text"
+                name="fist-name"
+                id="fist-name"
+              />
             </div>
+            <br />
             <div>
               <label for="last-name">Фамилия:</label>
-              <input type="text" name="last-name" id="last-name" />
+              <input
+                style="border: 1px solid white"
+                type="text"
+                name="last-name"
+                id="last-name"
+              />
             </div>
+            <br />
+
             <div>
               <label for="middle-name">Отчество:</label>
-              <input type="text" name="middle-name" id="middle-name" />
+              <input
+                style="border: 1px solid white"
+                type="text"
+                name="middle-name"
+                id="middle-name"
+              />
             </div>
-            <button>Изменить</button>
+            <br />
+
+            <button
+              style="
+                border: 1px solid white;
+                border-radius: 12px;
+                padding: 0.5em;
+              "
+            >
+              Изменить
+            </button>
           </form>
         </section>
         <section>
-          <h4>Ваша корзина</h4>
+          <h4 style="font-size: 1.5em">Ваша корзина</h4>
           <ul data-cart-list></ul>
         </section>
         <section>
-          <h4>Ваши предложения</h4>
+          <h4 style="font-size: 1.5em">Ваши предложения</h4>
           <ul data-promo-list></ul>
         </section>
       </main>
